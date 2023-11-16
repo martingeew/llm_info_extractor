@@ -75,8 +75,6 @@ output_parser = StructuredOutputParser.from_response_schemas(response_schemas)
 
 format_instructions = output_parser.get_format_instructions()
 
-format_instructions = output_parser.get_format_instructions()
-
 # print(format_instructions)
 
 extract_template = """\
